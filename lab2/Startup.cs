@@ -20,7 +20,7 @@ namespace RoutingApp
 
             routeBuilder.MapRoute("{controller}/{action}/{id}",
                 async context => {
-                    context.Response.ContentType = "text/html; charset=utf-8"; //home/index/1q
+                    context.Response.ContentType = "text/html; charset=utf-8"; //home/index/1
                     await context.Response.WriteAsync("алооооохаааааааааа");
                 });
 
